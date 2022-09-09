@@ -1,0 +1,3 @@
+[submodule "netlify-gifs"]
+	path = netlify-gifs
+	url = https://github.com/ryuma017/netlify-gifs.git

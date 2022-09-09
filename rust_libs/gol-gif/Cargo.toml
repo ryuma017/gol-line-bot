@@ -1,0 +1,12 @@
+[package]
+name = "gol-gif"
+version = "0.1.3"
+edition = "2021"
+
+[lib]
+name = "gol_gif"
+crate-type = ["cdylib"]
+
+[dependencies]
+gif = "0.11.4"
+pyo3 = { version = "0.16.5", features = ["extension-module"] }
